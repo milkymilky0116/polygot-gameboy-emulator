@@ -15,5 +15,7 @@
 ### 개발 계획
 
 1. CPU 에뮬레이션
+   1.1 Register 정의 [X]
+   1.2 Instruction Set 구현 [ ]
 2. Memory 관리
 3. 그래픽 렌더링
