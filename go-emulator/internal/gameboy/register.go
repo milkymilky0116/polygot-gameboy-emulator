@@ -71,7 +71,7 @@ func (r *Register) GetHL() uint16 {
 
 func (r *Register) SetAF(value uint16) {
 	r.A = uint8(value >> 8)
-	r.F = uint8(value & 0x00FF)
+	r.F = uint8(value & 0x00F0)
 }
 
 func (r *Register) SetBC(value uint16) {
